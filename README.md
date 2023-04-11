@@ -79,7 +79,7 @@ Que horas chegaram?
 
 O operador digita apenas horas cheias.
 
-A gestão da fila é feita da seguinte forma `Fila:3-7-` onde `-` é a distancia entre grupos.
+A gestão da fila é feita da seguinte forma `Fila:3-7-` onde `-` é a separador entre grupos.
 
 Para este caso ninguém será atribuído a nenhuma mesa ou fila e a hora do restaurante muda para 16h.
 
