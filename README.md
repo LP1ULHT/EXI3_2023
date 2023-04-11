@@ -2,7 +2,7 @@
 
 *Linguagens de Programação I*
 
-# Exercício Individual 3 - Trabalhos de Pintura
+# Exercício Individual 3 - Fila do Restaurante
 >Na resolução deste exercício deve ser utilizada a Linguagem de Programação C. Para além da correta implementação dos requisitos, tenha em conta os seguintes aspetos:
 >- O código apresentado deve ser bem indentado. 
 >- O código deve compilar sem erros ou *warnings* utilizando o *gcc* com as seguintes flags:
