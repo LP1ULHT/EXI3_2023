@@ -17,37 +17,37 @@
 
 ## Contexto
 
-Um novo restaurante vegano estar a fazer sucesso em Lisboa. O problema é que não há como fazer reservas e a fila para conseguir uma mesa no dia pode ser um desafio. Pensando nisso o dono do restaurante pediu para que os alunos da disciplina elaborassem um programa que fizesse o controle da fila das pessoas em um dia de funcionamento normal do restaurante (14h-23h). O restaurante possui 4 mesas grandes (as mesas possuem numero ilimitado de pessoas) e que nunca são partilhadas entre grupos diferentes. Assim quando as mesas do restaurante estão todas ocupadas um grupo que acabar de chegar deve aguardar na fila até que chegue a sua vez. Apesar de ainda não ter um programa para gerir a fila, o dono do restaurante tem um controle significativo com as outras variáveis do restaurante. Ele nos informou que nenhuma mesa fica mais do que 2h em uso por um mesmo grupo. Sempre após duas horas uma equipe vai até a mesa e limpa-a para receber um novo grupo.
-Há um funcionário que vai operar o programa e que tem informações de quantas pessoas chegaram e que horas chegaram.
-Com essas duas informações o programa deve funcionar e atribuir automaticamente nas 4 mesas as pessoas que chegam e as pessoas da fila.
+Um novo restaurante vegano estar a fazer sucesso em Lisboa. O problema é que não há a possibilidade de fazer reservas e a fila para conseguir uma mesa pode ser um desafio. Pensando nisso o Sr. Martins, dono do restaurante, pediu para que os alunos da disciplina elaborassem um programa que fizesse o controlo da fila de pessoas num dia de funcionamento normal do restaurante (14h-23h). O restaurante possui apenas 4 mesas (as mesas possuem numero ilimitado de pessoas) e estas nunca são partilhadas entre grupos distintos. Assim quando as mesas do restaurante estão todas ocupadas um grupo que acabe de chegar deverá aguardar na fila até que chegue a sua vez. Apesar de ainda não existir um programa para gerir a fila, o Sr. Martins tem um controlo significativo do restaurante. Ele informou-nos que nenhuma mesa fica ocupada mais do que 2h, pelo mesmo grupo. Após duas horas uma equipa vai até a mesa e limpa-a para receber um novo grupo.
+Há um funcionário que irá operar o programa e que terá informações sobre quantas pessoas chegaram e que horas chegaram.
+Com essas duas informações o programa deverá funcionar e atribuir automaticamente as 4 mesas às pessoas que chegam.
 
  
 ## Descrição
 
-A tela de controle do programa deve ter os campos:
+O ecrã de controlo do programa deve ter os seguintes campos:
 
 
 ```
 ----------
-Fila:
-Hora Atual: 14
+Fila:3-7-
+Hora Atual: 15
 ----------
 
-Mesa 1: 0
-Mesa 2: 0
-Mesa 3: 0
-Mesa 4: 0
+Mesa 1: 1
+Mesa 2: 2
+Mesa 3: 3
+Mesa 4: 2
 
 Quantas pessoas chegaram?
 1
 Que horas chegaram?
-14
+15
 ```
 
 
-A tela de controle acima sempre vai demonstrar quantas pessoas estão alocadas em uma mesa, sendo `0` o status que a mesa está disponível. É importante também ter o controle de que horas a mesa iniciou para que ela fique disponível após 2h.
+A tela de controlo acima sempre vai demonstrar quantas pessoas estão alocadas em uma mesa, sendo `0` o status que a mesa está disponível. É importante também ter o controlo de que horas a mesa iniciou para que ela fique disponível após 2h.
 
-A variável `Hora Atual` é uma variável de controle de tempo do restaurante que sempre é atualizada a partir do tempo em que novos grupos chegam.
+A variável `Hora Atual` é uma variável de controlo de tempo do restaurante que sempre é atualizada a partir do tempo em que novos grupos chegam.
 
 O operador pode por exemplo dizer que 4 pessoas chegaram as 14h:
 
@@ -76,6 +76,11 @@ Quantas pessoas chegaram?
 Que horas chegaram?
 16
 ```
+
+O operador digita apenas horas cheias.
+
+A gestão da fila é feita da seguinte forma `Fila:3-7-` onde `-` é a distancia entre grupos.
+
 Para este caso ninguém será atribuído a nenhuma mesa ou fila e a hora do restaurante muda para 16h.
 
 A hora lida sempre tem que ser maior ou igual a hora atual. Se isso não ocorrer basta apenas perguntar novamente `Que horas chegaram?`
