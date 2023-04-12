@@ -206,9 +206,9 @@ Hora Atual: 13
 ----------
 
 Mesa 1: 5
-Mesa 2: 0
+Mesa 2: 10
 Mesa 3: 13
-Mesa 4: 0
+Mesa 4: 10
 
 Quantas pessoas chegaram?
 10
@@ -216,14 +216,29 @@ Que horas chegaram?
 13
 
 ----------
-Fila: 4-10
+Fila: 4-10-
 Hora Atual: 13
 ----------
 
 Mesa 1: 5
-Mesa 2: 0
+Mesa 2: 10
 Mesa 3: 13
-Mesa 4: 0
+Mesa 4: 10
+
+Quantas pessoas chegaram?
+0
+Que horas chegaram?
+14
+
+----------
+Fila: 10-
+Hora Atual: 14
+----------
+
+Mesa 1: 5
+Mesa 2: 10
+Mesa 3: 4
+Mesa 4: 10
 
 Quantas pessoas chegaram?
 0
