@@ -20,6 +20,7 @@
 Um novo restaurante vegano estar a fazer sucesso em Lisboa. O problema é que não há a possibilidade de fazer reservas e a fila para conseguir uma mesa pode ser um desafio. Pensando nisso o Sr. Martins, dono do restaurante, pediu para que os alunos da disciplina elaborassem um programa que fizesse o controlo da fila de pessoas num dia de funcionamento normal do restaurante (14h-23h). O restaurante possui apenas 4 mesas (as mesas possuem numero ilimitado de pessoas) e estas nunca são partilhadas entre grupos distintos. Assim quando as mesas do restaurante estão todas ocupadas um grupo que acabe de chegar deverá aguardar na fila até que chegue a sua vez. Apesar de ainda não existir um programa para gerir a fila, o Sr. Martins tem um controlo significativo do restaurante. Ele informou-nos que nenhuma mesa fica ocupada mais do que 2h, pelo mesmo grupo. Após duas horas uma equipa vai até a mesa e limpa-a para receber um novo grupo.
 Há um funcionário que irá operar o programa e que terá informações sobre quantas pessoas chegaram e que horas chegaram.
 Com essas duas informações o programa deverá funcionar e atribuir automaticamente as 4 mesas às pessoas que chegam.
+O programa termina quando a hora de funcionamento for diferente da hora normal do restaurante (e.g. 5h)
 
  
 ## Descrição
@@ -88,6 +89,151 @@ A hora lida sempre tem que ser maior ou igual a hora atual. Se isso não ocorrer
 Toda mesa tem em sua estrutura uma `ocupação` e uma `hora de inicio`. A hora de inicio é sempre a hora em que a mesa é iniciada com o grupo, independente da hora que ele entrou a fila.
 
 Utilizem estrutura de dados tipo fila para controlar a fila do restaurante. Trabalhem com funções em separado para organizar melhor o código(Ex. Função que imprime, Função que faz a manutenção...)
+
+
+# Exemplo de execução:
+
+```
+----------
+Fila:
+Hora Atual: 11
+----------
+
+Mesa 1: 0
+Mesa 2: 0
+Mesa 3: 0
+Mesa 4: 0
+
+Quantas pessoas chegaram?
+3
+Que horas chegaram?
+11
+
+----------
+Fila:
+Hora Atual: 11
+----------
+
+Mesa 1: 3
+Mesa 2: 0
+Mesa 3: 0
+Mesa 4: 0
+
+Quantas pessoas chegaram?
+99
+Que horas chegaram?
+11
+
+----------
+Fila:
+Hora Atual: 11
+----------
+
+Mesa 1: 3
+Mesa 2: 99
+Mesa 3: 0
+Mesa 4: 0
+
+Quantas pessoas chegaram?
+13
+Que horas chegaram?
+12
+
+----------
+Fila:
+Hora Atual: 12
+----------
+
+Mesa 1: 3
+Mesa 2: 99
+Mesa 3: 13
+Mesa 4: 0
+
+Quantas pessoas chegaram?
+5
+Que horas chegaram?
+13
+
+----------
+Fila:
+Hora Atual: 13
+----------
+
+Mesa 1: 5
+Mesa 2: 0
+Mesa 3: 13
+Mesa 4: 0
+
+Quantas pessoas chegaram?
+10
+Que horas chegaram?
+13
+
+----------
+Fila:
+Hora Atual: 13
+----------
+
+Mesa 1: 5
+Mesa 2: 10
+Mesa 3: 13
+Mesa 4: 0
+
+Quantas pessoas chegaram?
+10
+Que horas chegaram?
+13
+
+
+----------
+Fila:
+Hora Atual: 13
+----------
+
+Mesa 1: 5
+Mesa 2: 10
+Mesa 3: 13
+Mesa 4: 10
+
+Quantas pessoas chegaram?
+4
+Que horas chegaram?
+13
+
+----------
+Fila: 4-
+Hora Atual: 13
+----------
+
+Mesa 1: 5
+Mesa 2: 0
+Mesa 3: 13
+Mesa 4: 0
+
+Quantas pessoas chegaram?
+10
+Que horas chegaram?
+13
+
+----------
+Fila: 4-10
+Hora Atual: 13
+----------
+
+Mesa 1: 5
+Mesa 2: 0
+Mesa 3: 13
+Mesa 4: 0
+
+Quantas pessoas chegaram?
+0
+Que horas chegaram?
+24
+
+```
+ O programa termina.
+
+
 
 ## Honestidade Académica
 
