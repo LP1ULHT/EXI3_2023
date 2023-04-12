@@ -96,7 +96,7 @@ Utilizem estrutura de dados tipo fila para controlar a fila do restaurante. Trab
 ```
 ----------
 Fila:
-Hora Atual: 11
+Hora Atual: 14
 ----------
 
 Mesa 1: 0
@@ -107,11 +107,11 @@ Mesa 4: 0
 Quantas pessoas chegaram?
 3
 Que horas chegaram?
-11
+14
 
 ----------
 Fila:
-Hora Atual: 11
+Hora Atual: 14
 ----------
 
 Mesa 1: 3
@@ -122,11 +122,11 @@ Mesa 4: 0
 Quantas pessoas chegaram?
 99
 Que horas chegaram?
-11
+14
 
 ----------
 Fila:
-Hora Atual: 11
+Hora Atual: 14
 ----------
 
 Mesa 1: 3
@@ -137,11 +137,11 @@ Mesa 4: 0
 Quantas pessoas chegaram?
 13
 Que horas chegaram?
-12
+15
 
 ----------
 Fila:
-Hora Atual: 12
+Hora Atual: 15
 ----------
 
 Mesa 1: 3
@@ -152,11 +152,11 @@ Mesa 4: 0
 Quantas pessoas chegaram?
 5
 Que horas chegaram?
-13
+16
 
 ----------
 Fila:
-Hora Atual: 13
+Hora Atual: 16
 ----------
 
 Mesa 1: 5
@@ -167,11 +167,11 @@ Mesa 4: 0
 Quantas pessoas chegaram?
 10
 Que horas chegaram?
-13
+16
 
 ----------
 Fila:
-Hora Atual: 13
+Hora Atual: 16
 ----------
 
 Mesa 1: 5
@@ -182,12 +182,12 @@ Mesa 4: 0
 Quantas pessoas chegaram?
 10
 Que horas chegaram?
-13
+16
 
 
 ----------
 Fila:
-Hora Atual: 13
+Hora Atual: 16
 ----------
 
 Mesa 1: 5
@@ -198,11 +198,11 @@ Mesa 4: 10
 Quantas pessoas chegaram?
 4
 Que horas chegaram?
-13
+16
 
 ----------
 Fila: 4-
-Hora Atual: 13
+Hora Atual: 16
 ----------
 
 Mesa 1: 5
@@ -213,11 +213,11 @@ Mesa 4: 10
 Quantas pessoas chegaram?
 10
 Que horas chegaram?
-13
+16
 
 ----------
 Fila: 4-10-
-Hora Atual: 13
+Hora Atual: 16
 ----------
 
 Mesa 1: 5
@@ -228,11 +228,11 @@ Mesa 4: 10
 Quantas pessoas chegaram?
 0
 Que horas chegaram?
-14
+17
 
 ----------
 Fila: 10-
-Hora Atual: 14
+Hora Atual: 17
 ----------
 
 Mesa 1: 5
