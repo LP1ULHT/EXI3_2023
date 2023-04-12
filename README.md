@@ -243,7 +243,7 @@ Mesa 4: 10
 Quantas pessoas chegaram?
 0
 Que horas chegaram?
-24
+23
 
 ```
  O programa termina.
