@@ -247,6 +247,43 @@ Que horas chegaram?
 ```
  O programa termina.
 
+## Sugestão de funções para gerir a fila
+
+```
+//variaveis da fila
+int fila[MAX];
+//endereco de final
+int fim = 0;
+//endereco de inicio
+int ini = 0;
+
+//funcao de adicao fila
+void qstore(int quant){
+    //condicao para fila cheia
+    if (fim == MAX){
+        // printf("Fila cheia.\n");
+        return;
+    }
+    //salva o valor no vetor
+    fila[fim] = quant;
+    //ajusta o final da fila
+    fim++;
+}
+
+//funcao de extracao da fila
+int qretrieve(){
+    //condicao para lista vazia
+    if (ini==fim){
+        // printf("Fila vazia.\n");
+        return NULL;
+    }
+    //mudar o inicio da fila
+    ini++;
+    //retornar o valor
+    return fila[ini-1];
+}
+
+```
 
 
 ## Honestidade Académica
