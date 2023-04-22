@@ -17,10 +17,10 @@
 
 ## Contexto
 
-Um novo restaurante vegano estar a fazer sucesso em Lisboa. O problema é que não há a possibilidade de fazer reservas e a fila para conseguir uma mesa pode ser um desafio. Pensando nisso o Sr. Martins, dono do restaurante, pediu para que os alunos da disciplina elaborassem um programa que fizesse o controlo da fila de pessoas num dia de funcionamento normal do restaurante (14h-23h). O restaurante possui apenas 4 mesas (as mesas possuem numero ilimitado de pessoas) e estas nunca são partilhadas entre grupos distintos. Assim quando as mesas do restaurante estão todas ocupadas um grupo que acabe de chegar deverá aguardar na fila até que chegue a sua vez. Apesar de ainda não existir um programa para gerir a fila, o Sr. Martins tem um controlo significativo do restaurante. Ele informou-nos que nenhuma mesa fica ocupada mais do que 2h, pelo mesmo grupo. Após duas horas uma equipa vai até a mesa e limpa-a para receber um novo grupo.
+Um novo restaurante vegano estar a fazer sucesso em Lisboa. O problema é que não há a possibilidade de fazer reservas e a fila para conseguir uma mesa pode ser um desafio. Pensando nisso o Sr. Martins, dono do restaurante, pediu para que os alunos da disciplina elaborassem um programa que fizesse o controlo da fila de pessoas num dia de funcionamento normal do restaurante (14h-23h). O restaurante possui apenas 4 mesas (as mesas possuem numero ilimitado de pessoas) e estas nunca são partilhadas entre grupos distintos. Assim, quando as mesas do restaurante estão todas ocupadas, um grupo que acabe de chegar deverá aguardar na fila até que chegue a sua vez. Apesar de ainda não existir um programa para gerir a fila, o Sr. Martins tem um controlo significativo do restaurante. Ele informou-nos que nenhuma mesa fica ocupada mais do que 2h, pelo mesmo grupo. Após duas horas uma equipa vai até a mesa e limpa-a para receber um novo grupo.
 Há um funcionário que irá operar o programa e que terá informações sobre quantas pessoas chegaram e que horas chegaram.
 Com essas duas informações o programa deverá funcionar e atribuir automaticamente as 4 mesas às pessoas que chegam.
-O programa termina quando a hora de funcionamento for diferente da hora normal do restaurante (e.g. 5h)
+O programa termina quando a hora de funcionamento ultrapassar a hora de fecho do restaurante >23.
 
  
 ## Descrição
